@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Great+Vibes&family=Grenze+Gotisch:wght@400;600&family=Mystery+Quest&family=Nosifer&family=Oregano:ital@0;1&family=Rubik+Spray+Paint&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Sacramento&family=Tangerine&display=swap");
+/*
+font-family: 'Are You Serious', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Grenze Gotisch', cursive;
+font-family: 'Mystery Quest', cursive;
+font-family: 'Nosifer', cursive;
+font-family: 'Oregano', cursive;
+font-family: 'Rubik Spray Paint', cursive;
+font-family: 'Rubik Vinyl', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Tangerine', cursive;
+*/
+
 /* Reset de parámetros */
 * {
   margin: 0;
@@ -6,9 +21,116 @@
 }
 
 body {
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
   background-color: rgb(157, 218, 212);
 }
 
 html {
   font-size: 10px; /*modifica el tamaño de referencia de la RAIZ (origin-16px) */
+}
+
+.header__index {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(58, 56, 56);
+}
+
+.menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  color: beige;
+  margin: 1rem;
+}
+
+.presentacion {
+  background-image: url("../imagenes/Miel.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.titulo {
+  font-family: "Sacramento", cursive;
+  font-weight: 600;
+  font-size: 3.3rem;
+  text-align: center;
+}
+
+.presentacion h2 {
+  font-family: "Sacramento", cursive;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.presentacion .romaara {
+  font-family: "Mystery Quest", cursive;
+  font-weight: 800;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.presentacion .galeria {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+/* Cards */
+.container__card {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container__card .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container__card .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container__card .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.container__card .card h4 {
+  font-weight: 600;
+}
+
+.container__card .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container__card .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
 }

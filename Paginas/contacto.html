@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header class="header_from">
+      <h1>Formulario de contacto</h1>
+    </header>
+
+    <!-- Ini codigo copiado -->
+<!-- MAIN -->
+<section>
+
+	            <!-- SECONDARY MODULE -->
+	<div class="module_form">
+		<div class="wrapper">
+			<div class="module_form_content">
+				<form class="form_container" action="#" method="post" name="frm" id="frm">
+					<h2>Datos personales</h2>
+					<div class="form-group form-radio-target">
+						<div class="radio-wrapper">
+							<label for="cliente">
+								<input type="radio" name="usted_es" id="cliente" value="Cliente" checked/>
+								<span></span>
+								Cliente
+							</label>
+						</div>
+						<div class="radio-wrapper">
+							<label for="noCliente">
+								<input type="radio" name="usted_es" id="noCliente" value="NoCliente"/>
+								<span></span>
+								No Cliente
+							</label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="input-wrapper">
+							<label for="" class="label-container">Apellido</label>
+							<input class="input-container" id="apellido" name="apellido" type="text" value="" maxlength="100"/>
+						</div>
+						<div class="input-wrapper">
+							<label for="" class="label-container">Nombre</label>
+							<input class="input-container" id="nombre" name="nombre" type="text" value="" maxlength="100"/>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="input-wrapper">
+							<label for="" class="label-container">Email</label>
+							<input class="input-container" id="e_mail" name="e_mail" type="text" value="" placeholder="usuario@dominio.com" maxlength="200"/>
+						</div>
+						<div class="input-wrapper">
+							<label for="" class="label-container">Tel&#233;fono</label>
+							<div class="input-content">
+								<input class="input-container input-container-small" id="telefono_cod" name="telefono_cod" type="text" placeholder="Cod. &#225rea" maxlength="5"/>
+								<input class="input-container input-container-med" id="telefono_num" name="telefono_num" type="text" placeholder="N&#250mero" maxlength="10"/>
+							</div>
+						</div>
+					</div>
+
+
+					<h2>Motivo</h2>
+					<div class="form-group form-radio-reason">
+						<div class="radio-wrapper">
+							<label for="consulta">
+								<input type="radio" name="motivo" id="consulta" value="Consulta" checked/>
+								<span></span>
+								Consulta
+							</label>
+						</div>
+						<div class="radio-wrapper">
+							<label for="solicitud">
+								<input type="radio" name="motivo" id="solicitud" value="Solicitud"/>
+								<span></span>
+								Solicitud
+							</label>
+						</div>
+						<div class="radio-wrapper">
+							<label for="reclamo">
+								<input type="radio" name="motivo" id="reclamo" value="Reclamo"/>
+								<span></span>
+								Reclamo
+							</label>
+						</div>
+						<div class="radio-wrapper">
+							<label for="sugerencia">
+								<input type="radio" name="motivo" id="sugerencia" value="Sugerencia"/>
+								<span></span>
+								Sugerencia
+							</label>
+						</div>
+					</div>
+
+					<div class="form-group" id="help-container">
+						<div class="input-wrapper"></div>
+					</div>
+					<div class="form-group">
+						<div class="textarea-wrapper">
+							<label for="" class="label-container">Describ tu inquietud</label>
+							<textarea class="textarea-container" name="comentario" id="comentario" rows="8" cols="80" maxlenght="500"></textarea>
+							
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="button-wrapper">
+							<button type="button" id="btnReset" class="btn btn-secondary">Borrar</button>
+
+							<button type="button" id="btnSend" class="btn">Enviar</button>
+						</div>
+					</div>
+					<input type="hidden" name="iDel" id="iDel" value="0">
+					<input type="hidden" name="mode" id="mode" value="Contact">
+					<input type="hidden" name="iUser" id="iUser" value="0">
+					<input type="hidden" name="restore" id="restore" value="0">
+				</form>
+
+
+			</div>
+		</div>
+	</div>      <!-- SECONDARY MODULE -->
+</section>
+
+
+              <!-- Fin codigo copiado -->
+  </body>
+</html>
