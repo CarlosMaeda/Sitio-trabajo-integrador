@@ -32,7 +32,7 @@ html {
   font-size: 10px; /*modifica el tamaño de referencia de la RAIZ (origin-16px) */
 }
 
-.header__index {
+.header__global {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
