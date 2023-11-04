@@ -154,3 +154,12 @@ html {
   text-align: end;
   font-size: large;
 }
+
+.carousel-recetas {
+  font-size: 3rem;
+  color: rgb(71, 17, 122);
+}
+
+.carousel-p {
+  font-size: 1.5rem;
+}
