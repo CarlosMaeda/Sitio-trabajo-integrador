@@ -134,3 +134,7 @@ html {
   text-decoration: none;
   color: #3498db;
 }
+
+.sep {
+  height: 30px;
+}
